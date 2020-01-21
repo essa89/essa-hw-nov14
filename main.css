@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.app{
+    height: 95vh;
+    display: grid;
+    grid-template-columns: repeat(32, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+
+}
+
+.app > div{
+    border: 2px solid black;
+    font-size: 2px;
+    overflow: hidden; 
+    color: #505;
+}
